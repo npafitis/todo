@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: marge:0.16.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/marge/marge/0.16.0/marge-0.16.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcb3818b-4ea6-4298-b49f-e58267d62bb4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YFCMQwjtbz5iqI2dGTEr6unLbx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowREPL.ShowToolbar" value="false" />
+    <property name="cursive.last.file.extension./home/nikolas/IdeaProjects/todo/src" value="clj" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="ReplState" timestamp="1582540069240">{:repl-history {:ide [], :local [{:command &quot;(source comment)&quot;, :offset 15, :ns &quot;todo.core&quot;} {:command &quot;(todo \&quot;Hello World\&quot;)&quot;, :offset 20, :ns &quot;todo.core&quot;} {:command &quot;(todo.todo/todo \&quot;Hello World\&quot;)&quot;, :offset 11, :ns &quot;todo.core&quot;} {:command &quot;(contains? \&quot;asd.clj\&quot; \&quot;.clj\&quot;)&quot;, :offset 26, :ns &quot;todo.core&quot;} {:command &quot;(source slurp)&quot;, :offset 13, :ns &quot;todo.core&quot;} {:command &quot;(source dedupe)&quot;, :offset 14, :ns &quot;todo.core&quot;} {:command &quot;(empty? \&quot;\&quot;)&quot;, :offset 9, :ns &quot;todo.core&quot;} {:command &quot;(empty? \&quot;asd\&quot;)&quot;, :offset 12, :ns &quot;todo.core&quot;} {:command &quot;(reported? (todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 42, :ns &quot;todo.core&quot;} {:command &quot;(reported? (todo.todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 21, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 12, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo [:id 1] \&quot;Needs some fixing\&quot;))&quot;, :offset 34, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo [:id] \&quot;Needs some fixing\&quot;))&quot;, :offset 32, :ns &quot;todo.core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure Application.todo.core">
+    <configuration name="Repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="todo" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="todo.core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="todo" />
+      <setting name="path" value="" />
+      <setting name="namespace" value="todo.core" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure REPL.Repl" />
+      <item itemvalue="Clojure Application.todo.core" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.todo.core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcb3818b-4ea6-4298-b49f-e58267d62bb4" name="Default Changelist" comment="" />
+      <created>1582528906540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582528906540</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582529135165">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="417" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582529135165" />
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1582540129768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
+    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1582540129768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="265" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
+    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1582540129768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="265" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
+    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1582540129768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="265" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
+    <state x="603" y="219" width="712" height="678" key="search.everywhere.popup" timestamp="1582539684856">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="603" y="219" width="712" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582539684856" />
+  </component>
+</project>
