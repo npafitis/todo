@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcb3818b-4ea6-4298-b49f-e58267d62bb4" name="Default Changelist" comment="" />
+    <list default="true" id="fcb3818b-4ea6-4298-b49f-e58267d62bb4" name="Default Changelist" comment=".gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__cheshire_5_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_http_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_cache_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__potemkin_0_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__riddley_0_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__slingshot_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__tigris_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/todo.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YFCMQwjtbz5iqI2dGTEr6unLbx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,13 +49,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowREPL.ShowToolbar" value="false" />
+    <property name="cursive.last.file.extension./home/albertobalsam/Projects/todo/src" value="clj" />
     <property name="cursive.last.file.extension./home/nikolas/IdeaProjects/todo/src" value="clj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="ReplState" timestamp="1582540069240">{:repl-history {:ide [], :local [{:command &quot;(source comment)&quot;, :offset 15, :ns &quot;todo.core&quot;} {:command &quot;(todo \&quot;Hello World\&quot;)&quot;, :offset 20, :ns &quot;todo.core&quot;} {:command &quot;(todo.todo/todo \&quot;Hello World\&quot;)&quot;, :offset 11, :ns &quot;todo.core&quot;} {:command &quot;(contains? \&quot;asd.clj\&quot; \&quot;.clj\&quot;)&quot;, :offset 26, :ns &quot;todo.core&quot;} {:command &quot;(source slurp)&quot;, :offset 13, :ns &quot;todo.core&quot;} {:command &quot;(source dedupe)&quot;, :offset 14, :ns &quot;todo.core&quot;} {:command &quot;(empty? \&quot;\&quot;)&quot;, :offset 9, :ns &quot;todo.core&quot;} {:command &quot;(empty? \&quot;asd\&quot;)&quot;, :offset 12, :ns &quot;todo.core&quot;} {:command &quot;(reported? (todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 42, :ns &quot;todo.core&quot;} {:command &quot;(reported? (todo.todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 21, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 12, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo [:id 1] \&quot;Needs some fixing\&quot;))&quot;, :offset 34, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo [:id] \&quot;Needs some fixing\&quot;))&quot;, :offset 32, :ns &quot;todo.core&quot;}], :remote []}}</component>
-  <component name="RunManager" selected="Clojure Application.todo.core">
+  <component name="ReplState" timestamp="1582666179007">{:repl-history {:ide [], :local [{:command &quot;(source comment)&quot;, :offset 15, :ns &quot;todo.core&quot;} {:command &quot;(todo \&quot;Hello World\&quot;)&quot;, :offset 20, :ns &quot;todo.core&quot;} {:command &quot;(todo.todo/todo \&quot;Hello World\&quot;)&quot;, :offset 11, :ns &quot;todo.core&quot;} {:command &quot;(contains? \&quot;asd.clj\&quot; \&quot;.clj\&quot;)&quot;, :offset 26, :ns &quot;todo.core&quot;} {:command &quot;(source slurp)&quot;, :offset 13, :ns &quot;todo.core&quot;} {:command &quot;(source dedupe)&quot;, :offset 14, :ns &quot;todo.core&quot;} {:command &quot;(empty? \&quot;\&quot;)&quot;, :offset 9, :ns &quot;todo.core&quot;} {:command &quot;(empty? \&quot;asd\&quot;)&quot;, :offset 12, :ns &quot;todo.core&quot;} {:command &quot;(reported? (todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 42, :ns &quot;todo.core&quot;} {:command &quot;(reported? (todo.todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 21, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo \&quot;Needs some fixing\&quot;))&quot;, :offset 12, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo [:id 1] \&quot;Needs some fixing\&quot;))&quot;, :offset 34, :ns &quot;todo.core&quot;} {:command &quot;(reported? '(todo.todo/todo [:id] \&quot;Needs some fixing\&quot;))&quot;, :offset 32, :ns &quot;todo.core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.Repl">
     <configuration name="Repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <module name="todo" />
       <setting name="replType" value="NREPL" />
@@ -75,14 +107,26 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Clojure REPL.Repl" />
       <item itemvalue="Clojure Application.todo.core" />
+      <item itemvalue="Clojure REPL.Repl" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Clojure Application.todo.core" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,32 +139,88 @@
       <option name="presentableId" value="Default" />
       <updated>1582528906540</updated>
     </task>
+    <task id="LOCAL-00001" summary=".gitignore">
+      <created>1582666123789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582666123789</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".gitignore">
+      <created>1582666137835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582666137835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="554" y="163" width="964" height="666" key="#Project_Structure" timestamp="1582662307148">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="554" y="163" width="964" height="666" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1582662307148" />
     <state x="417" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582529135165">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="417" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582529135165" />
-    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1582540129768">
+    <state x="425" y="-101" width="1048" height="978" key="CommitChangelistDialog2" timestamp="1582666201557">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="425" y="-101" width="1048" height="978" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582666201557" />
+    <state x="179" y="-5" width="1538" height="883" key="DiffContextDialog" timestamp="1582666114764">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="179" y="-5" width="1538" height="883" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582666114764" />
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom" timestamp="1582663539829">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
-    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1582540129768">
+    <state width="1874" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582663539829" />
+    <state width="1874" height="265" key="GridCell.Tab.0.center" timestamp="1582663539829">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
-    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1582540129768">
+    <state width="1874" height="265" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582663539829" />
+    <state width="1874" height="265" key="GridCell.Tab.0.left" timestamp="1582663539829">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
-    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1582540129768">
+    <state width="1874" height="265" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582663539829" />
+    <state width="1874" height="265" key="GridCell.Tab.0.right" timestamp="1582663539829">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="265" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582540129768" />
-    <state x="603" y="219" width="712" height="678" key="search.everywhere.popup" timestamp="1582539684856">
+    <state width="1874" height="265" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582663539829" />
+    <state x="554" y="233" width="802" height="525" key="Vcs.Push.Dialog.v2" timestamp="1582666145947">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="554" y="233" width="802" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582666145947" />
+    <state x="962" y="-13" width="954" height="1065" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582665568584">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="962" y="-13" width="954" height="1065" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582665568584" />
+    <state x="962" y="-13" width="954" height="1065" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1582665579623">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="962" y="-13" width="954" height="1065" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582665579623" />
+    <state x="591" y="234" width="738" height="570" key="find.popup" timestamp="1582664870485">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="591" y="234" width="738" height="570" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582664870485" />
+    <state x="623" y="239" key="run.anything.popup" timestamp="1582663361628">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582663361628" />
+    <state x="603" y="219" width="781" height="678" key="search.everywhere.popup" timestamp="1582663227115">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="603" y="219" width="712" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582539684856" />
+    <state x="603" y="219" width="781" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582663227115" />
   </component>
 </project>
