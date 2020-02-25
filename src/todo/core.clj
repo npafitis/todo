@@ -13,9 +13,9 @@
   (map
     (comp read-string #(reduce str %))
     (filter #(not (= % [""]))
-            (map vec (partition-by empty?
-                                   (dedupe (reduce conj
-                                                   [] (line-seq rdr))))))))
+            (map vec (partition-by empty? (dedupe (reduce
+                                                    conj []
+                                                    (line-seq rdr))))))))
 
 (defn reported? [form]
   (and (vector? (second form))
@@ -33,32 +33,17 @@
   (let [len (count form)]
     (if (>= 1 len)
       nil
-      (loop [marge-rep [:p []]
+      (loop [marge-rep []
              idx 1]
         (if (= idx len)
           marge-rep
           (let [subform (nth form idx)]
-            (cond (string? subform) (recur (assoc marge-rep ;; vec
-                                             (dec (count marge-rep)) ;;assoc idx
-                                             (conj (conj
-                                                     (last marge-rep)
-                                                     :normal)
-                                                   (str subform "<br>" \newline)))
+            (cond (string? subform) (recur (conj marge-rep :normal (str subform "<br>" \newline))
                                            (inc idx))
-                  (list? subform) (recur (assoc marge-rep   ;; vec
-                                           (dec (count marge-rep)) ;;assoc idx
-                                           (conj (conj
-                                                   (last marge-rep)
-                                                   :code)
-                                                 {:clojure (str subform)}))
+                  (list? subform) (recur (conj marge-rep :code {:clojure (str subform)})
                                          (inc idx))
                   (and (vector? subform)
-                       (not (= :id (first subform)))) (recur (assoc marge-rep ;; vec
-                                                               (dec (count marge-rep)) ;;assoc idx
-                                                               (conj (conj
-                                                                       (last marge-rep)
-                                                                       :h4)
-                                                                     (second subform)))
+                       (not (= :id (first subform)))) (recur (conj marge-rep (first subform) (second subform))
                                                              (inc idx))
                   :else (recur marge-rep (inc idx)))))))))
 
